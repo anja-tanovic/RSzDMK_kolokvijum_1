@@ -1,1 +1,3 @@
 Anja Tanovic - EE 49/2018
+
+Na myID grani nisam azurirala konacnu verziju za zadatak, konacan je na master
