@@ -21,7 +21,7 @@
 #define TRUE 1
 
 ///Makro za definisanje netacnog iskaza
-#define FALSE 2
+#define FALSE 0
 
 /**
  * Sort - Funkcija koja implementiran sortiranje niza

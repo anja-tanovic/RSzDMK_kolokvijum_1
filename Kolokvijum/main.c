@@ -43,7 +43,7 @@ int main()
 		usartPutString_P(PSTR("Unesite clanove niza\r\n\0"));
 
 		//cekanje na unos niza
-		usartPutString_P(PSTR("Uneli ste niz { \0"));
+		usartPutString_P(PSTR("{ \0"));
 		pinSetValue(PORT_B, 5, HIGH);
 
 
@@ -75,7 +75,7 @@ int main()
 		}
 		usartPutString_P(PSTR("}\r\n\0"));
 
-		if (ok)
+		if (ok == TRUE)
 			usartPutString_P(PSTR("Niz je aritmeticki, \0"));
 		else
 			usartPutString_P(PSTR("Niz nije aritmeticki, \0"));
