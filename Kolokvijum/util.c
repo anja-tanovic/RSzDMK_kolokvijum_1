@@ -54,9 +54,9 @@ int8_t Check(int16_t *array, int16_t array_length)
 	int16_t n = array[1] - array[0];    //pocetna razlika, ukoliko se ponavlja, ok
 	int8_t ok = TRUE;
 
-	for (int8_t i = 1; i < array_length; i++)
+	for (int8_t i = 1; i < array_length - 1; i++)
 	{
-		if (array[i + 1] - array[i] != n)
+		if ((array[i + 1] - array[i]) != n)
 		{
 			ok = FALSE;
 			break;

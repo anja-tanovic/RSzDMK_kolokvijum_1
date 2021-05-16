@@ -35,6 +35,7 @@ void Sort(int16_t *array, int16_t array_length, int8_t mode);
 /**
  * Check - Funkcija koja proverava da li je niz aritmeticki
  * @param array - ulaz tipa int16_t - niz koji se proverava
+ * @param array_length - ulaz tipa int16_t - duzina niza
  * @return - Povratna vrednost TRUE ili FALSE
  */
 int8_t Check(int16_t *array, int16_t array_length);
