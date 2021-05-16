@@ -64,9 +64,10 @@ int main()
 		Sort(niz, duzina, DOWN);
 
 		//Provera da li je niz aritmeticki
-		int8_t ok = Check(niz);
+		int8_t ok = Check(niz, duzina);
 
 		//ISPIS
+
 		usartPutString_P(PSTR("{ \0"));
 		for (uint8_t i = 0; i < duzina; i++)
 		{

@@ -49,12 +49,12 @@ void Sort(int16_t *array, int16_t array_length, int8_t mode)
 
 /**********************************************************************/
 
-int8_t Check(int16_t *array)
+int8_t Check(int16_t *array, int16_t array_length)
 {
 	int16_t n = array[1] - array[0];    //pocetna razlika, ukoliko se ponavlja, ok
 	int8_t ok = TRUE;
 
-	for (int8_t i = 1; i < sizeof(array); i++)
+	for (int8_t i = 1; i < array_length; i++)
 	{
 		if (array[i + 1] - array[i] != n)
 		{
